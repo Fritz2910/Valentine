@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 227, 249);
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.h1 {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(185, 52, 114);
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.Brief {
+    width: 450;
+    height: 450;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-left: 400px;
+    display: block;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.Brief:hover {
+    width: 550px;
+    height: 550px;
+    transition: .3s ease;
+    transition: .3s ease-in-out;    
+}
+
+.Box {
+    width: 400px;
+    height: 400px;
+    margin-top: -490px;
+    margin-left: -440px;
+
+}
+
+.Seite {
+    width: 500;
+    height: 800;
+    margin-top: 0px;
+
+    display: block;
+    max-width: 100%;
+    cursor: pointer;
+
+}
+
+.ask {
+    font-family: "Lobster", serif;
+    width: 600px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(131, 40, 40);
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 72px;
+}
+
+.CheckboxYes{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 250px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+
+}
+
+.CheckboxNo{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 550px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+}
+
+
+.Yes {
+    font-family: "Lobster", serif;
+    width: 600px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(131, 40, 40);
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -120px;
+}
+
+.No {
+    font-family: "Lobster", serif;
+    width: 600px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(131, 40, 40);
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 190px;
+}
+
+.CheckboxYes:hover {
+    width: 50px;
+    height: 50px;
+    transition: .3s ease;
+    transition: .3s ease-in-out;    
+}
+
+.CheckboxNo:hover {
+    width: 50px;
+    height: 50px;
+    transition: .3s ease;
+    transition: .3s ease-in-out;    
+}
+
+.Ya {
+    font-family: "Lobster", serif;
+    width: 600px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(131, 40, 40);
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: -300px;
+}
+
+.ly {
+    font-family: "Lobster", serif;
+    width: 630px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(131, 40, 40);
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -300px;
+}
